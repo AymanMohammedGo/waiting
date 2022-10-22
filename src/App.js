@@ -5,14 +5,7 @@ import InputForm from "./components/InputForm";
 import ViewData from "./components/ViewData";
 
 const App = () => {
-  const [date, setData] = useState([
-    { name: "Ayman", service: "cheshore", id: "1" },
-    { name: "Mohammed", service: "pedicure", id: "2" },
-    { name: "Ayman1", service: "cheshore", id: "3" },
-    { name: "Mohammed1", service: "pedicure", id: "4" },
-    { name: "Ayman2", service: "cheshore", id: "5" },
-    { name: "Mohammed2", service: "pedicure", id: "6" },
-  ]);
+  const [data, setData] = useState([]);
 
   const addHandler = (enteredValue, selectValue) => {
     setData((prevData) => {
@@ -31,12 +24,10 @@ const App = () => {
       return updatedGoals;
     });
   };
-  let content = (
-    <p style={{ textAlign: "center" }}>No goals found. Maybe add one?</p>
-  );
+  let content = <p style={{ textAlign: "center" }}>لايوجد اي حجوزات</p>;
 
-  if (date.length > 0) {
-    content = <ViewData items={date} onDeleteItem={deleteItemHandler} />;
+  if (data.length > 0) {
+    content = <ViewData items={data} onDeleteItem={deleteItemHandler} />;
   }
   return (
     <>
