@@ -1,9 +1,9 @@
-Demo:https://aymanmohammedgo.github.io/waiting/
-The goal of the project is to design a simple tool to manage reservations within a barbershop
-Features in the project :
-Add a reservation for a new customer
-Possibility of deleting the reservation
-In the project directory, you can run:
+Demo:https://aymanmohammedgo.github.io/waiting/\
+The goal of the project is to design a simple tool to manage reservations within a barbershop\
+Features in the project :\
+Add a reservation for a new customer\
+Possibility of deleting the reservation\
+In the project directory, you can run:\
 ### `npm start`
 
 Runs the app in the development mode.\
