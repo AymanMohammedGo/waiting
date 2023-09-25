@@ -1,4 +1,4 @@
-Demo:https://aymanmohammedgo.github.io/waiting/\
+Demo:https://aymanmohammedgo.github.io/waiting  \
 The goal of the project is to design a simple tool to manage reservations within a barbershop\
 Features in the project :\
 Add a reservation for a new customer\
